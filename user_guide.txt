@@ -1,0 +1,28 @@
+===========================================================
+USER GUIDE
+===========================================================
+
+Notes:
+Program is done in Python 3 and executed on Windows 10.
+To run the program, please make sure you have Python3 installed to avoid any runtime error.
+
+
+How to Run:
+1. Install necessary files from github
+2. Place necessary files in Python directory on system
+3. Open command prompt
+4. Change directory to where Python is installed
+5. Type 'python logscript.py'
+6. Program will show status
+	- Data Loaded
+	- Processing Done
+	- File Reports Done
+
+
+Files Produced:
+1. unique_ip.txt - list of unique IP
+2. unique_ip_country_count.txt - list of unique IP with country and counts
+3. activity_<ip address> - list of activities per IP address
+4. report_sqli.txt - report for detected sql injections from found entries in 3.
+5. report_inclusion.txt - report for detected file inclusions from found entries in 3.
+6. report_shells.txt - report for detected web shells from found entries in 3.
