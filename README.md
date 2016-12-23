@@ -1,4 +1,4 @@
-# Python Apache Log Reader & D3js Visualization of Apache Logs. 
+# Python Apache Log Reader & D3js Visualization of Logs. 
 
 ##Task One
 1. list of unique IP addresses as a flat text file
