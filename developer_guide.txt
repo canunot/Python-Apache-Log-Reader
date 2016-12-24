@@ -7,13 +7,15 @@ This guide will describe the logical structure in logscript.py
 
 A) List of Unique IP with Country and Number of Hits
 -----------------------------------------------------------
-To get unique IP from the log file, we need to get a match using regex to find the ip address. However, taking note that each line will return 2 ip addresses, we are mostly interested in the host ip address. 
+To get unique IP from the log file, we need to get a match using regex to find the ip address. 
+However, taking note that each line will return 2 ip addresses, we are mostly interested in the host ip address. 
 From the ip address that is found, we will be able to get the country and also the number of hits which is derived from the number of ip address occurances in the log file.
 
 
 B) List of Activities per IP addresses
 -----------------------------------------------------------
-When iterating through each line of the file done in A), capture activities of ip address by taking note of which current host address it is.
+When iterating through each line of the file done in A), 
+capture activities of ip address by taking note of which current host address it is.
 
 
 C) Detection of SQL Injection, File Inclusion and Web Shells
