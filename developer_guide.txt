@@ -19,7 +19,7 @@ When iterating through each line of the file done in A), capture activities of i
 C) Detection of SQL Injection, File Inclusion and Web Shells
 -----------------------------------------------------------
 Iterate through all activity files and find a match for the following:
-1. sql injections: going my sql key statements such as SELECT, UNION, INSERT, etc
+1. sql injections: going by sql key statements such as SELECT, UNION, INSERT, etc
 2. file inclusions: search for any function names such as HTTPS?:, ftp, php, etc.
 3. web shells: search for OPTIONS, and any suspicious GET statments. 
 
